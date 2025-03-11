@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relaxation & Bien-être</title>
+    <style>
+        body {
+            background-color: #1A3E3C;
+            color: #FFFDE0;
+            font-family: Impact, sans-serif;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            flex-direction: column;
+        }
+        .container {
+            max-width: 80%;
+        }
+        h1, p {
+            font-size: 26pt;
+            margin-bottom: 20px;
+        }
+    
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Site de produits naturels</h1>
+        <p>Découvrez d'autres solutions</p>
+    
+    </div>
+</body>
+</html>
