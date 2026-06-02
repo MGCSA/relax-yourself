@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bienvenue sur MGC</title>
 
+    <!-- Redirection immédiate -->
+    <meta http-equiv="refresh" content="0; URL='https://mygrowingcompany.ch'">
+
     <style>
         body {
             background-color: #1A3E3C;
@@ -13,19 +16,35 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            flex-direction: column;
             height: 100vh;
             margin: 0;
+            text-align: center;
         }
 
         h1 {
             font-size: 4rem;
-            text-align: center;
             margin: 0;
             font-weight: bold;
+        }
+
+        p {
+            margin-top: 15px;
+            font-size: 1rem;
+            opacity: 0.8;
+        }
+
+        a {
+            color: #FFFDE0;
         }
     </style>
 </head>
 <body>
     <h1>Bienvenue sur MGC</h1>
+    <p>Redirection en cours...</p>
+
+    <noscript>
+        <p>Si vous n'êtes pas redirigé automatiquement, <a href="https://mygrowingcompany.ch">cliquez ici</a>.</p>
+    </noscript>
 </body>
 </html>
